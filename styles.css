@@ -1,0 +1,405 @@
+.cssload-preloader {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10;
+}
+
+.cssload-preloader > .cssload-preloader-box {
+  position: absolute;
+  height: 29px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the preloader */
+  -webkit-transform: translate(-50%, -50%); /* Vendor prefix for WebKit browsers */
+  -moz-transform: translate(-50%, -50%); /* Vendor prefix for Mozilla Firefox */
+  -ms-transform: translate(-50%, -50%); /* Vendor prefix for Microsoft Edge */
+  -o-transform: translate(-50%, -50%); /* Vendor prefix for Opera */
+  perspective: 195px;
+  -o-perspective: 195px;
+  -ms-perspective: 195px;
+  -webkit-perspective: 195px;
+  -moz-perspective: 195px;
+}
+
+.cssload-preloader .cssload-preloader-box > div {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: rgb(204, 204, 204);
+  float: left;
+  text-align: center;
+  line-height: 50px;
+  font-family: Verdana;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(1) {
+  background: rgb(76, 172, 64);
+  margin-right: 15px;
+  animation: cssload-movement 1000ms ease 0ms infinite alternate;
+  -o-animation: cssload-movement 1000ms ease 0ms infinite alternate;
+  -ms-animation: cssload-movement 1000ms ease 0ms infinite alternate;
+  -webkit-animation: cssload-movement 1000ms ease 0ms infinite alternate;
+  -moz-animation: cssload-movement 1000ms ease 0ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(2) {
+  background: rgb(177, 217, 121);
+  margin-right: 15px;
+  animation: cssload-movement 1000ms ease 86.25ms infinite alternate;
+  -o-animation: cssload-movement 1000ms ease 86.25ms infinite alternate;
+  -ms-animation: cssload-movement 1000ms ease 86.25ms infinite alternate;
+  -webkit-animation: cssload-movement 1000ms ease 86.25ms infinite alternate;
+  -moz-animation: cssload-movement 1000ms ease 86.25ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(3) {
+  background: rgb(76, 172, 64);
+  margin-right: 15px;
+  animation: cssload-movement 1000ms ease 172.5ms infinite alternate;
+  -o-animation: cssload-movement 1000ms ease 172.5ms infinite alternate;
+  -ms-animation: cssload-movement 1000ms ease 172.5ms infinite alternate;
+  -webkit-animation: cssload-movement 1000ms ease 172.5ms infinite alternate;
+  -moz-animation: cssload-movement 1000ms ease 172.5ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(4) {
+  background: rgb(177, 217, 121);
+  margin-right: 15px;
+  animation: cssload-movement 1000ms ease 258.75ms infinite alternate;
+  -o-animation: cssload-movement 1000ms ease 258.75ms infinite alternate;
+  -ms-animation: cssload-movement 1000ms ease 258.75ms infinite alternate;
+  -webkit-animation: cssload-movement 1000ms ease 258.75ms infinite alternate;
+  -moz-animation: cssload-movement 1000ms ease 258.75ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(5) {
+  background: rgb(76, 172, 64);
+  margin-right: 15px;
+  animation: cssload-movement 1000ms ease 345ms infinite alternate;
+  -o-animation: cssload-movement 1000ms ease 345ms infinite alternate;
+  -ms-animation: cssload-movement 1000ms ease 345ms infinite alternate;
+  -webkit-animation: cssload-movement 1000ms ease 345ms infinite alternate;
+  -moz-animation: cssload-movement 1000ms ease 345ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(6) {
+  background: rgb(177, 217, 121);
+  margin-right: 15px;
+  animation: cssload-movement 1000ms ease 431.25ms infinite alternate;
+  -o-animation: cssload-movement 1000ms ease 431.25ms infinite alternate;
+  -ms-animation: cssload-movement 1000ms ease 431.25ms infinite alternate;
+  -webkit-animation: cssload-movement 1000ms ease 431.25ms infinite alternate;
+  -moz-animation: cssload-movement 1000ms ease 431.25ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(7) {
+  background: rgb(76, 172, 64);
+  margin-right: 15px;
+  animation: cssload-movement 1000ms ease 517.5ms infinite alternate;
+  -o-animation: cssload-movement 1000ms ease 517.5ms infinite alternate;
+  -ms-animation: cssload-movement 1000ms ease 517.5ms infinite alternate;
+  -webkit-animation: cssload-movement 1000ms ease 517.5ms infinite alternate;
+  -moz-animation: cssload-movement 1000ms ease 517.5ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(8) {
+  background: rgb(177, 217, 121);
+  margin-right: 15px;
+  animation: cssload-movement 1000ms ease 603.75ms infinite alternate;
+  -o-animation: cssload-movement 1000ms ease 603.75ms infinite alternate;
+  -ms-animation: cssload-movement 1000ms ease 603.75ms infinite alternate;
+  -webkit-animation: cssload-movement 1000ms ease 603.75ms infinite alternate;
+  -moz-animation: cssload-movement 1000ms ease 603.75ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(9) {
+  background: rgb(76, 172, 64);
+  margin-right: 15px;
+  animation: cssload-movement 1000ms ease 690ms infinite alternate;
+  -o-animation: cssload-movement 1000ms ease 690ms infinite alternate;
+  -ms-animation: cssload-movement 1000ms ease 690ms infinite alternate;
+  -webkit-animation: cssload-movement 1000ms ease 690ms infinite alternate;
+  -moz-animation: cssload-movement 1000ms ease 690ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(10) {
+  background: rgb(177, 217, 121);
+  margin-right: 15px;
+  animation: cssload-movement 1000ms ease 776.25ms infinite alternate;
+  -o-animation: cssload-movement 1000ms ease 776.25ms infinite alternate;
+  -ms-animation: cssload-movement 1000ms ease 776.25ms infinite alternate;
+  -webkit-animation: cssload-movement 1000ms ease 776.25ms infinite alternate;
+  -moz-animation: cssload-movement 1000ms ease 776.25ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(10) {
+  background: rgb(177, 217, 121);
+  margin-right: 15px;
+  animation: cssload-movement 1000ms ease 862.5ms infinite alternate;
+  -o-animation: cssload-movement 1000ms ease 862.5ms infinite alternate;
+  -ms-animation: cssload-movement 1000ms ease 862.5ms infinite alternate;
+  -webkit-animation: cssload-movement 1000ms ease 862.5ms infinite alternate;
+  -moz-animation: cssload-movement 1000ms ease 862.5ms infinite alternate;
+}
+.cssload-preloader .cssload-preloader-box > div:nth-child(11) {
+  background: rgb(76, 172, 64);
+  margin-right: 15px;
+  animation: cssload-movement 1000ms ease 948.75ms infinite alternate;
+  -o-animation: cssload-movement 1000ms ease 948.75ms infinite alternate;
+  -ms-animation: cssload-movement 1000ms ease 948.75ms infinite alternate;
+  -webkit-animation: cssload-movement 1000ms ease 948.75ms infinite alternate;
+  -moz-animation: cssload-movement 1000ms ease 948.75ms infinite alternate;
+}
+
+@keyframes cssload-movement {
+  from {
+    transform: scale(1) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  to {
+    transform: scale(1.5) translateY(-24px) rotateX(45deg); 
+    background: rgb(177, 217, 121);
+  }
+}
+
+@-o-keyframes cssload-movement {
+  from {
+    -o-transform: scale(1) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  to {
+    -o-transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 24px 39px rgb(177, 217, 121);
+    background: rgb(177, 217, 121);
+  }
+}
+
+@-ms-keyframes cssload-movement {
+  from {
+    -ms-transform: scale(1) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  to {
+    -ms-transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 24px 39px rgb(177, 217, 121);
+    background: rgb(177, 217, 121);
+  }
+}
+
+@-webkit-keyframes cssload-movement {
+  from {
+    -webkit-transform: scale(1) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  to {
+    -webkit-transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 24px 39px rgb(177, 217, 121);
+    background: rgb(177, 217, 121);
+  }
+}
+
+@-moz-keyframes cssload-movement {
+  from {
+    -moz-transform: scale(1) translateY(0px) rotateX(0deg);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  to {
+    -moz-transform: scale(1.5) translateY(-24px) rotateX(45deg);
+    box-shadow: 0 24px 39px rgb(177, 217, 121);
+    background: rgb(177, 217, 121);
+  }
+}
+
+
+#content {
+  
+  
+
+}
+.content-hidden {
+  opacity: 0;
+  transform: translateY(-100%);
+  -webkit-transform: translateY(-100%); /* Vendor prefix for WebKit browsers */
+  -moz-transform: translateY(-100%); /* Vendor prefix for Mozilla Firefox */
+  -ms-transform: translateY(-100%); /* Vendor prefix for Microsoft Edge */
+  -o-transform: translateY(-100%); /* Vendor prefix for Opera */
+  transition: opacity 2s ease, transform 2s ease;
+}
+.content-visible {
+  opacity: 1;
+  transform: translateY(0);
+  -webkit-transform: translateY(0); /* Vendor prefix for WebKit browsers */
+  -moz-transform: translateY(0); /* Vendor prefix for Mozilla Firefox */
+  -ms-transform: translateY(0); /* Vendor prefix for Microsoft Edge */
+  -o-transform: translateY(0); /* Vendor prefix for Opera */
+}
+
+
+
+
+.container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .blob {
+       max-width: 960px;
+        width: 100%;
+        height: 100%;
+    }
+body{
+  margin: 0;
+  overflow-x: hidden;
+
+}
+
+
+#content{
+  background-color: #FFEED9;
+  width:1920px ;
+  height: 4500px;
+  overflow-x:hidden;
+}
+
+#frameHome{
+  width: 1920px;
+  height: 1080px;
+}
+
+
+#anchorFrame{
+  padding-top: 50px;
+  display:flex;
+  height: 50px;
+}
+.anchorTxt { 
+  font-size: 30px;
+  padding-left:50px;
+  font-family: 'Eczar', serif;
+
+ }
+.anchorTxt:hover{
+  transition:ease 0ms;
+  text-decoration: underline;
+  font-size:33px;
+  cursor: pointer;
+
+}
+#hmContent{
+  display:flex;
+  align-items: center;
+}
+#fullName{
+  padding-left: 100px;
+  margin-right: 20px;
+}
+#nameText {
+  font-size: 200px;
+  font-family: 'Eczar', serif;
+  color: black;
+  margin-bottom:20px;
+}
+#nameSub{
+  font-size: 50px;
+  font-family: 'Eczar', serif;
+  color: black;
+  margin-top:-100px;
+}
+#btnDivOne {
+  
+  display:flex;
+}
+.btnsOne{
+  width: 270px;
+  height: 84px;
+  font-family: 'Eczar', serif;
+  color:white;
+  border:none;
+  
+}
+.btnsOne:hover{
+  cursor:pointer;
+  opacity: 0.6;
+}
+
+#viewmwBt{
+  background: #B1D979;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+#contactMeBt{
+  background: #B1D979;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  font-family: 'Eczar', serif;
+}
+
+#pfp {
+  display:block;
+  -webkit-filter: drop-shadow(5px 5px 0 black)
+                  drop-shadow(-5px -5px 0 black);
+  filter: drop-shadow(10px 10px 0 black) 
+          drop-shadow(-10px -10px 0 black);
+  width: 500px;
+  transition: transform 0.3s;
+}
+#contactPfp{
+  display:none;
+  
+  -webkit-filter: drop-shadow(5px 5px 0 black)
+                  drop-shadow(-5px -5px 0 black);
+  filter: drop-shadow(10px 10px 0 black) 
+          drop-shadow(-10px -10px 0 black);
+  width: 500px;
+  transition: transform 0.5s ease;
+  
+}
+#vwPfp{
+  display:none;
+  -webkit-filter: drop-shadow(5px 5px 0 black)
+                  drop-shadow(-5px -5px 0 black);
+  filter: drop-shadow(10px 10px 0 black) 
+          drop-shadow(-10px -10px 0 black);
+  width: 500px;
+  scale:80%;
+  transition: transform 0.5s ease;
+  
+}
+
+
+#abtMeFr{
+  width: 1920px;
+  height: 1080px;
+  background-color: #B1D979;
+}
+
+#abtTxt{
+  margin-left: 75px;
+  padding-top:200px;
+  width: 500px;
+
+}
+
+#abTitle{
+  font-family:'Eczar', serif;
+  font-size: 50px;
+  color: black;
+}
+.abtP {
+  font-family:'Eczar', serif;
+  font-size:20px ;
+  margin-top: 20px;
+  color: black;
+}
+

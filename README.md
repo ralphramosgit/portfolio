@@ -1,2 +1,2 @@
 # portfolio
-electronic portfolio
+non professional, personal portfolio
